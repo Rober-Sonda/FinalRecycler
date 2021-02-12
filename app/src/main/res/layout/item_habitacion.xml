@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ItemHabitacion_id"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/cardview_dark_background"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txtnombhab_id"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/name_room"/>
+            <TextView
+                android:id="@+id/txtvalluces_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:text="@string/val_light" />
+            <TextView
+                android:id="@+id/txtcortinas_id"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/shaders" />
+            <TextView
+                android:id="@+id/txttemp_id"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperature" />
+        </LinearLayout>
+</LinearLayout>

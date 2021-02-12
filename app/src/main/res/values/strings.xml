@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recycler dinámico</string>
+    <string name="name_room">Nombre de la habitación</string>
+    <string name="val_light">Valor de las luces</string>
+    <string name="shaders">Cortinas</string>
+    <string name="temperature">Temperatura</string>
+    <string name="EncenderLuces">Encender Luces</string>
+    <string name="Consultar">Consultar</string>
+    <string name="salir">Salir</string>
+
+</resources>
